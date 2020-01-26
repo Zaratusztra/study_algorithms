@@ -1,0 +1,66 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+
+*.gch
+
+# bash #
+########
+*.sh
+
+# vs code, vim and other IDE-s workspaces and temporary files #
+###############################################################
+*.vscode
+*.workspace
+*.swp
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python cache file #
+#####################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pyenv #
+#########
+.python-version
+
+# virtualenv #
+##############
+venv/
+ENV/
