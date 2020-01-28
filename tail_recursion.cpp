@@ -14,7 +14,7 @@ int factorial_recursion(int n, int current)
 {
     if (n == 1)
         return current;
-    factorial_recursion(n-1, current*n);
+    return factorial_recursion(n-1, current*n);
 }
 
 
