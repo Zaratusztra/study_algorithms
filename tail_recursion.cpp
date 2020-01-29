@@ -1,16 +1,17 @@
 #include <iostream>
 #include <string>
 
+typedef long long unsigned int ullint;
 
-int factorial_recursion(int, int); //This is auxilary function. You will see :)
+ullint factorial_recursion(ullint, ullint); //This is auxilary function. You will see :)
 
-int factorial(int n)
+ullint factorial(ullint n)
 {
     return factorial_recursion(n, 1);
 }
 
 
-int factorial_recursion(int n, int current)
+ullint factorial_recursion(ullint n, ullint current)
 {
     if (n == 1)
         return current;
